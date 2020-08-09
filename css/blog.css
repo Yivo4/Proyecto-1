@@ -1,11 +1,11 @@
 body {
-    background-image: url(https://wallpapercave.com/wp/wp2483009.jpg);
+    background-image: url(../img/galeria.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-main {
-    background-color:rgba(140, 140, 140, 0.4);
+main, .ult  {
+    background-color:rgba(0, 0, 0, 0.6);
 }
 .imgheader {
     width: 100%;
@@ -19,3 +19,42 @@ main {
     padding:0 8px;
     color:#343a40;
 }
+.categorias ul {
+    list-style: none;
+}
+input {
+    box-sizing: border-box;
+}
+.c-img
+{
+    height:6rem;
+}
+@media (max-width: 576px) {
+
+    .banner {
+        width:150px;
+        height: 150px;
+        border: 2px solid black;
+        margin: auto;
+        background-size: 100% 100% ;
+        animation: banner 10s infinite;
+        animation-direction: alternate;
+    
+    }
+    @keyframes banner {
+     0%, 30% {
+                background-image: url(../img/WhatsApp\ Image\ 2020-07-21\ at\ 11.02.41.jpeg);
+                
+     }
+     
+     35%, 65% {
+         background-image: url(../img/C256FD6E-4F2B-4036-A011-66D79827F084.JPG);
+     }
+    
+    
+     70%, 100% {
+         
+        background-image: url(../img/IMG_7970.jpg);
+     }
+    }
+    }

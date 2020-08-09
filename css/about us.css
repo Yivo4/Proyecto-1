@@ -1,11 +1,11 @@
 body {
-    background-image: url(https://c.pxhere.com/photos/1b/93/dumbbell_sport_weights_strength_training_weight_lifting_muscles_muscle_training_train-1376231.jpg!d);
+    background-image: url(../img/background2.jpg!d);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 main {
-    background-color:rgba(140, 140, 140, 0.2);
+    background-color:rgba(0, 0, 0, 0.6);
 }
 img {
     width: 100%;

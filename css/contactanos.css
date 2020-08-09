@@ -38,10 +38,12 @@ body {
     color:white;
 }
 .division{ 
-    box-shadow: 0 0 20px 0 rgba(255,255,255, .3) ;
+    box-shadow: 0 0 20px 0  ;
+    margin-bottom: 50px;
 }
 .division > * {
     padding: 1em;
+    
 }
 .contact-from form {
     display: flex;
@@ -85,9 +87,10 @@ body {
     padding: .3em;
 }
  /* pantallas computadoras */ 
- @media screen and (min-width : 768px) {
+ @media screen and (min-width : 768px)  {
 
     .division {
+        
          display: grid;
          grid-template-columns:  2fr 1fr;
     }
@@ -123,11 +126,15 @@ footer {
     padding:0;
 }
 body {
-    background-image: url(https://c.pxhere.com/photos/1b/93/dumbbell_sport_weights_strength_training_weight_lifting_muscles_muscle_training_train-1376231.jpg!d);
+    background-image: url(../img/background2.jpg!d);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 main {
-    background-color:rgba(140, 140, 140, 0.2);
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.row {
+    padding: 0;
+    
 }

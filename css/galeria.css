@@ -1,11 +1,11 @@
 body {
-    background-image: url(https://wallpapercave.com/wp/wp2483009.jpg);
+    background-image: url(../img/galeria.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 main {
-    background-color:rgba(140, 140, 140, 0.4);
+    background-color:rgba(0, 0, 0, 0.6);
 }
 img {
     width: 100%;
@@ -22,4 +22,9 @@ img {
     font-size:30px;
     padding:0 8px;
     color:#343a40;
+}
+.card-text {
+    height: 8rem;
+    overflow:scroll;
+    text-overflow:ellipsis;
 }

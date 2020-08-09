@@ -1,0 +1,27 @@
+  body,#msg,.image{
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  }
+  #msg,.image{
+    border: none;
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+  color:#343833; 
+  font-size: 20px;
+  }
+  .image{
+    height: auto;
+  }
+  h1{
+    font-family: "montserrat", sans-serif;
+  }
+
+.imgfooter {
+  width: auto;
+}
+.fa {
+  font-size:30px;
+  padding:0 8px;
+  color:#343a40;
+}

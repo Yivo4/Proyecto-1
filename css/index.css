@@ -1,11 +1,11 @@
 body {
-    background-image: url(https://i.ibb.co/LZHmpQd/background1.png);
+    background-image: url(../img/background1.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
 .titulo, .galeriablog {
-    background-color:rgba(140, 140, 140, 0.4);
+    background-color:rgba(0, 0, 0, 0.4);
 }
 img {
     width: 100%;
@@ -22,4 +22,18 @@ img {
     font-size:30px;
     padding:0 8px;
     color:#343a40;
+}
+.productos {
+    border-radius: 5px;
+    border-color:#f8f9fa;
+    border: 3px solid;
+    padding:5px;
+    margin:0 5px 10px 5px;
+}
+.blog {
+    border-radius: 5px;
+    border-color: #f8f9fa;
+    border: 3px solid;
+    padding:5px;
+    margin:0 5px 10px 5px;
 }
